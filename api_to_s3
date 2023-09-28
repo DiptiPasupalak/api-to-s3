@@ -5,7 +5,7 @@ import boto3
 aws_access_key_id = "p_aws_access_key_id"             # Replace with your AWS access key
 aws_secret_access_key = "p_aws_secret_access_key"     # Replace with your AWS secret access key
 s3_bucket_name = "p_bucket_name"                      # Replace with your S3 bucket name
-s3_object_key = "p_object_name"                        # Replace with the name of the S3 object to store the response
+s3_object_key = "p_object_name"                       # Replace with the the unique key (path) under which the object will be stored in the bucket
 
 # Initialize an S3 client
 s3_client = boto3.client("s3", aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)
