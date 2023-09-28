@@ -20,7 +20,7 @@ Before using this script, make sure to configure the following:
 ## Usage
 1. Ensure you have Python installed on your system.
 2. Install the required libraries using `pip install requests boto3`.
-3. Execute the script by running `python main.py`.
+3. Execute the script by running `python api_to_s3.py`.
 
 ## Dependencies
 - Python 3.x
