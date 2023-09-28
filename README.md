@@ -28,4 +28,4 @@ Before using this script, make sure to configure the following:
 - Boto3 library for interacting with AWS services
 
 ## License
-This code is open source and available under the [MIT License](LICENSE).
+This code is open source and available under the License file.
